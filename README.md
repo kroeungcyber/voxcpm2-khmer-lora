@@ -87,6 +87,9 @@ python data/make_manifest.py \
 
 ## Step 2 — Train on RunPod
 
+> Full click-by-click guide (volume setup, SCP upload, monitoring, download):
+> **[runpod/RUNPOD-GUIDE.md](runpod/RUNPOD-GUIDE.md)**. Summary below.
+
 ### Option A — Pod + template (fastest)
 
 1. In RunPod → **Pods → Deploy**.
