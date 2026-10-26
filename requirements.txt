@@ -1,0 +1,10 @@
+# Training requires the VoxCPM repo (for scripts/train_voxcpm_finetune.py).
+# Inference-only environments can just `pip install voxcpm`.
+
+voxcpm
+soundfile
+torch>=2.5.0
+safetensors
+transformers
+tensorboardX
+argbind
