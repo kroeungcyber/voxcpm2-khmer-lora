@@ -1,0 +1,26 @@
+# Sample Khmer instructional phrases for the dataset
+#
+# Purpose: record these (or your own) in a single consistent voice to build the
+# 5–10 minute personalized-voice dataset. Each line is one utterance:
+#
+#   Khmer text  |  English meaning
+#
+# The transcript in your TSV must match exactly what you *actually say* on the
+# recording. These are instructional/university-domain phrases, chosen because
+# the goal is narration for educational videos.
+
+ជំរាបសួរ សូមស្វាគមន៍មកកាន់វគ្គបណ្តុះបណ្តាលនេះ។ | Hello, welcome to this training course.
+ថ្ងៃនេះ យើងនឹងរៀនអំពីបញ្ញាសិប្បនិម្មិត។ | Today we will learn about artificial intelligence.
+សូមចុចប៊ូតុងខាងក្រោមដើម្បីចាប់ផ្តើម។ | Please click the button below to begin.
+តោះចាប់ផ្តើមជំហានទីមួយ។ | Let us begin the first step.
+សូមបើកកម្មវិធី រួចចូលទៅកាន់គណនីរបស់អ្នក។ | Please open the application, then go to your account.
+សូមរក្សាទុកឯកសាររបស់អ្នកឱ្យបានត្រឹមត្រូវ។ | Please save your documents properly.
+ប្រសិនបើអ្នកមានសំណួរ សូមសួរឥឡូវនេះ។ | If you have a question, please ask now.
+មេរៀនបន្ទាប់ យើងនឹងពិភាក្សាអំពីសុវត្ថិភាពទិន្នន័យ។ | In the next lesson we will discuss data security.
+កុំភ្លេចពិនិត្យមើលចម្លើយរបស់អ្នកមុនពេលដាក់។ | Do not forget to check your answers before submitting.
+សូមអរគុណសម្រាប់ការចូលរួមរបស់អ្នក។ | Thank you for your participation.
+ឥឡូវនេះ យើងនឹងមើលលទ្ធផលជាមួយគ្នា។ | Now we will look at the results together.
+សូមប្រើប្រាស់ឧបករណ៍នេះដោយការទទួលខុសត្រូវ។ | Please use this tool responsibly.
+សូមចងចាំថា មនុស្សជាអ្នកសម្រេចចិត្ត មិនមែនម៉ាស៊ីនទេ។ | Remember that a human makes the decision, not the machine.
+យើងនឹងចាប់ផ្តើមផ្នែកបន្ទាប់ក្នុងរយៈពេលបន្តិចទៀត។ | We will start the next section in a moment.
+សូមធ្វើតាមការណែនាំនៅលើអេក្រង់។ | Please follow the instructions on the screen.
