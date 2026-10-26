@@ -1,0 +1,37 @@
+# VoxCPM2 LoRA fine-tuning — personalized Khmer voice
+# Adapted from the official conf/voxcpm_v2/voxcpm_finetune_lora.yaml
+# https://github.com/OpenBMB/VoxCPM
+
+pretrained_path: /workspace/models/VoxCPM2
+train_manifest: /workspace/data/train.jsonl
+val_manifest: null              # set to /workspace/data/val.jsonl if you have a val split
+sample_rate: 16000              # AudioVAE encoder input rate — do NOT change
+out_sample_rate: 48000          # AudioVAE decoder output (used for TensorBoard audio)
+batch_size: 2
+grad_accum_steps: 8             # effective batch size = 2 * 8 = 16
+num_workers: 8
+preprocessing_num_workers: 8
+num_iters: 1000
+log_interval: 10
+valid_interval: 500
+save_interval: 500
+learning_rate: 0.0001           # LoRA learning rate (10x the full-SFT 1e-5)
+weight_decay: 0.01
+warmup_steps: 100
+max_steps: 1000
+max_batch_tokens: 8192
+max_grad_norm: 1.0
+save_path: /workspace/checkpoints/khmer_lora
+tensorboard: /workspace/logs/khmer_lora
+lambdas:
+  loss/diff: 1.0
+  loss/stop: 1.0
+
+# LoRA configuration
+lora:
+  enable_lm: true
+  enable_dit: true
+  enable_proj: false
+  r: 32
+  alpha: 32
+  dropout: 0.0
